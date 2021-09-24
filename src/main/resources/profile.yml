@@ -1,0 +1,48 @@
+#########################################################################
+#
+#                       PlayerProfiles by ImBuzz
+#
+#########################################################################
+GUI:
+  title: "&8Your Profiles"
+  items:
+    basicProfile:
+      type: DIAMOND_SWORD
+      damage: 0
+      name: "&7&l[&e&l>&7&l]&e Select this Profile"
+      lore:
+        - ""
+        - "&eInformation"
+        - " &e&l*&6 Name: &7%profile_name%"
+        - " &e&l*&6 World: &7%world%"
+        - " &e&l*&6 Location:"
+        - "    &7X: %loc_x%"
+        - "    &7Y: %loc_y%"
+        - "    &7Z: %loc_z%"
+        - ""
+        - " &e&l*&6 Status: %status%"
+        - " &7Click to select"
+        - " &7Right-Click to delete"
+    closeProfile:
+      type: BARRIER
+      damage: 0
+      name: "&cClose"
+      lore:
+        - "&7Click to close"
+DELETEGUI:
+  title: "&8Deleting Profile"
+  items:
+    deleteConfirm:
+      type: WOOL
+      damage: 5
+      name: "&aConfirm"
+      lore:
+        - "&7Do you want to delete a profile called: %profile_name%?"
+        - ""
+        - "&7Click to do that"
+    deleteCancel:
+      type: WOOL
+      damage: 14
+      name: "&cCancel"
+      lore:
+        - "&7Click to cancel"

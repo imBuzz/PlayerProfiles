@@ -1,0 +1,37 @@
+#########################################################################
+#
+#                       PlayerProfiles by ImBuzz
+#
+#########################################################################
+#Here you can decide if you want to sync options, such as enderchest, inventories and more...
+profile:
+  #Change the value to set the maximum number of players that a player can have
+  maxNumberPerPlayer: 3
+  syncOptions:
+    #Put true if you want the enderchest be different for each profile
+    syncEnderchest: true
+    #Put true if you want the inventory be different for each profile
+    syncInventory: true
+    #Put true if you want health be different for each profile
+    syncHealth: true
+    #Put true if you want all the effect be different for each profile
+    syncEffects: true
+    #Put true if you want the hunger level be different for each profile
+    syncHunger: true
+    #Put true if you want the XP level be different for each profile
+    syncXP: true
+    #Put true if you want the last location be different for each profile
+    syncLocation: true
+#here you can change all messages from this plugin
+lang:
+  join-message: "&7You are currently playing on %profile%"
+  profile-created: "&aCongratulation! You created a new profile called: %profile%"
+  profile-deleted: "&cYou've deleted a profile called: %profile%"
+  profile-already_exist: "&cA profile called: %profile% already exist!"
+  profile-in_use: "&eYou are already using this profile!"
+  profile-switch: "&eNow you are playing on %profile% profile"
+  profile-does_not_exist: "&cError, this profile does not exist!"
+  profile-cannot_delete_default: "&cYou cannot delete this profile!"
+  not_permission: "&cYou don't have the permission to do that!"
+  reached_max_profile_number: "&cYou cannot create more profiles!"
+  reload_completed: "&aReload completed!"

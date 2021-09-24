@@ -1,0 +1,11 @@
+name: PlayerProfiles
+version: '${project.version}'
+main: me.imbuzz.dev.playerprofiles.PlayerProfiles
+authors: [ ImBuzz ]
+depend:
+  - SmartInvs
+
+
+commands:
+  profile:
+    description: Profile basic command
